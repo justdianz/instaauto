@@ -1,0 +1,9 @@
+services:
+  instaauto:
+    build: .
+    image: yourname/instaauto
+    container_name: instaauto
+    environment:
+      - IG_USERNAME=xxxxx
+      - IG_PASSWORD=*****
+    restart: unless-stopped

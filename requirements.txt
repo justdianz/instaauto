@@ -1,0 +1,4 @@
+instagrapi
+schedule
+python-dotenv
+Pillow
